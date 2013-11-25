@@ -247,6 +247,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.input.noresample=1
 
+# Input resampling configuration
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.input.noresample=1
+
 # This hw ships locked, work around it with loki
 PRODUCT_PACKAGES += \
         loki.sh \
